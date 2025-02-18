@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "CryptRaiderEditor Editor Win64 Development (CryptRaider)",
+            "compilerPath": "D:\\Visual Studio IDE\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Epic Games\\UE_5.5\\.vscode\\compileCommands_CryptRaider.json",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Epic Games/UE_5.5/Engine/Source/**",
+                "D:/Epic Games/UE_5.5/Engine/Intermediate/Build/**",
+                "D:/Epic Games/UE_5.5/Engine/Plugins/**"
+            ],
+            "defines": [
+                "_WIN32",
+                "WITH_EDITOR=1",
+                "UE_BUILD_DEVELOPMENT"
+            ]
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "D:\\Visual Studio IDE\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Epic Games\\UE_5.5\\.vscode\\compileCommands_Default.json",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Epic Games/UE_5.5/Engine/Source/**",
+                "D:/Epic Games/UE_5.5/Engine/Intermediate/Build/**",
+                "D:/Epic Games/UE_5.5/Engine/Plugins/**"
+            ],
+
+
+            "defines": [
+                "_WIN32",
+                "WITH_EDITOR=1",
+                "UE_BUILD_DEVELOPMENT"
+            ]
+        }
+    ],
+    "version": 4
+}
